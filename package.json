@@ -1,0 +1,24 @@
+{
+    "name": "scanvice",
+    "version": "0.0.1",
+    "description": "App para buscar trabajo",
+    "main": "server.js",
+    "author": "ScanVice",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "express": "^3.21.2",
+        "mongoose": "^8.8.0",
+        "multer": "^0.1.8",
+        "nodemailer": "^5.1.1",
+        "path": "^0.12.7",
+        "socket.io": "^4.7.5"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "license": "ISC"
+}
